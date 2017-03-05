@@ -11,12 +11,9 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-    $('#profile').mouseenter(function() {
+    $('#profile').toggle(function() {
         $('#profile').attr("href","https://image.ibb.co/nhm81F/20170105_141746.jpg");
         document.alert("Test");
-    });
-    $('#profile').mouseleave(function() {
-        $('#profile').attr("href","https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");    
     });
 
     // Highlight the top nav as scrolling occurs
