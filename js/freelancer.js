@@ -11,6 +11,10 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    var $profile=$('#profile');
+    $profile.mouseenter(function() {
+        $profile = $('<img src="https://image.ibb.co/nhm81F/20170105_141746.jpg" />');
+    });
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
