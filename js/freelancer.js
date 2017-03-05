@@ -11,6 +11,7 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    // Not working
     $('#profile').mouseenter(function() {   
         $('#profile').attr("src","https://image.ibb.co/nhm81F/20170105_141746.jpg");
     });
