@@ -11,9 +11,10 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-    var $profile=$('#profile');
-    $profile.mouseenter(function() {
-        $profile = $('<img src="https://image.ibb.co/nhm81F/20170105_141746.jpg" />');
+    $('#profile').mouseenter(function() {
+        $('#profile').html('<img src="https://image.ibb.co/nhm81F/20170105_141746.jpg" alt="Shitscreek" />');
+    $('#profile').mouseleave(function() {
+        $('#profile').html('<img  src="https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif" alt="Profile Pic Wizardry  :3" />');    
     });
 
     // Highlight the top nav as scrolling occurs
