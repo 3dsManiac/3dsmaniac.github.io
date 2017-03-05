@@ -12,9 +12,9 @@
         event.preventDefault();
     });
     $('#profile').mouseenter(function() {
-        $('#profile').html('<img src="https://image.ibb.co/nhm81F/20170105_141746.jpg" alt="Shitscreek" />');
+        $('#profile').attr("href","https://image.ibb.co/nhm81F/20170105_141746.jpg");
     $('#profile').mouseleave(function() {
-        $('#profile').html('<img  src="https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif" alt="Profile Pic Wizardry  :3" />');    
+        $('#profile').attr("href","https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");    
     });
 
     // Highlight the top nav as scrolling occurs
