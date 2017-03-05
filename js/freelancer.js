@@ -12,7 +12,7 @@
         event.preventDefault();
     });
     $('#profile').toggle(function() {
-        $('#profile').attr("href","https://image.ibb.co/nhm81F/20170105_141746.jpg");
+        $('#profile').attr("src","https://image.ibb.co/nhm81F/20170105_141746.jpg");
         document.alert("Test");
     });
 
