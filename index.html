@@ -505,6 +505,13 @@
     </div>
     
     <script>
+        $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+        });
      $('#profile').mouseenter(function() {   
         $('#profile').attr("src","https://image.ibb.co/nhm81F/20170105_141746.jpg");
     });
