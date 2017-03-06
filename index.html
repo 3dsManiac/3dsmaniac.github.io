@@ -111,7 +111,7 @@
                         <hr class="star-light" style="background-color: #000066;" >
                         <span class="skills"><br/> Web Developer - Graphic Artist</span>
                         <br />
-                        <a class="page-scroll" href="#page-top" id="click">Something Cool</a>
+                        <a href="#page-top" id="click">Something Cool</a>
                     </div>
                 </div>
             </div>
@@ -505,7 +505,7 @@
     </div>
     
     <script>
-        $('a.page-scroll').bind('click', function(event) {
+        $('a#click').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
