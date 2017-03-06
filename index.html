@@ -110,8 +110,12 @@
                         <span class="name" color="red" style="text-shadow: 4px 4px 2px #0000ff">Hey there! I am Sashank MNS.</span>
                         <hr class="star-light" style="background-color: #000066;" >
                         <span class="skills"><br/> Web Developer - Graphic Artist</span>
-                        <br />
-                        <a href="#page-top" id="click">Something Cool</a>
+                       
+                         <ul class="nav navbar-nav navbar-right">
+                            <li class="page-scroll">
+                            <a href="#page-top">Something Cool</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -505,19 +509,7 @@
     </div>
     
     <script>
-        $('a#click').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-        });
-     $('#profile').mouseenter(function() {   
-        $('#profile').attr("src","https://image.ibb.co/nhm81F/20170105_141746.jpg");
-    });
-     $('#profile').mouseleave(function() {   
-        $('#profile').attr("src","https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
-    });
+      
     </script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
