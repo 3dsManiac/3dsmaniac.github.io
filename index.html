@@ -517,10 +517,12 @@
     </div>
     
     <script type="text/javascript">
-      $('click').click(function() {
-          $('#profile').attr("src", "https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
-          $(this).fadeOut('slow');
-      });
+        $(function() {
+                $('click').click(function() {
+                $('#profile').attr("src", "https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
+                $(this).fadeOut('slow');
+            });
+        });    
     </script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
