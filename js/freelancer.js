@@ -10,7 +10,7 @@
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
          $('#profile').attr("src", "https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
-          $('#click').fadeOut('slow');
+          $('#wows').fadeOut('slow');
         event.preventDefault();
     });
     // Not working
