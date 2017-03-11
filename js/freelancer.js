@@ -9,18 +9,9 @@
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
-         $('#profile').attr("src", "https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
-          $('#wows').fadeOut('slow');
         event.preventDefault();
     });
-    // Not working
-    $('#profile').mouseenter(function() {   
-        $('#profile').attr("src","https://image.ibb.co/nhm81F/20170105_141746.jpg");
-    });
-     $('#profile').mouseleave(function() {   
-        $('#profile').attr("src","https://image.ibb.co/nfiw5a/2017_02_08_00_33_33.gif");
-    });
-
+    
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
