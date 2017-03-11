@@ -42,7 +42,7 @@
             overflow: hidden;
             max-height: 75%;
             max-width: 75%;
-           border-radius: 10px;
+           border-radius: 100%;
         }
         #profimg{
             background-color: black;
@@ -557,6 +557,7 @@
                   $('#wows').fadeOut('slow');
                   $('#beHide').fadeOut('slow');
                   $(window).scrollTop(($('#profile').offset().top)-20);
+                 $('profile').css("border-radius", "10px");
              });
         });    
      </script>
