@@ -568,7 +568,9 @@
                   $(window).scrollTop(($('#profile').offset().top)-20);
                  $('#profile').css("border-radius", "10px");
                  $('#awesomeness').toggleClass('hmm');
-                 $('#awesomeness').fadeOut('slow');
+                 setTimeout(function() {
+                       $('#awesomeness').fadeOut('slow');
+                 }, 1000);
              });
         });    
      </script>
