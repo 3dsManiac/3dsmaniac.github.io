@@ -90,6 +90,14 @@
     color: #2010A0;
     outline: none;
 }
+        #awesomeness {
+            display: none;
+        }
+        .hmm {
+            font-family: 'Advent Pro';
+            font-size: 30px;
+            color: cyan;
+        }
     </style>
 
 </head>
@@ -133,6 +141,7 @@
                 <div class="col-lg-12">
                     <div id="prof">
                     <img class="img-responsive" id="profile" src="https://preview.ibb.co/i6jPAa/20170105_141746.jpg" alt="Profile Pic Wizardry  :3">
+                        <h1 id="awesomeness">IMPRESSED YET?</h1>
                     </div>   
                     <div class="intro-text">
                         <span class="name" color="red" style="text-shadow: 4px 4px 2px #0000ff">Hey there! I am Sashank MNS.</span>
@@ -558,6 +567,8 @@
                   $('#beHide').fadeOut('slow');
                   $(window).scrollTop(($('#profile').offset().top)-20);
                  $('#profile').css("border-radius", "10px");
+                 $('#awesomeness').toggleClass('hmm');
+                 $('#awesomeness').fadeOut('slow');
              });
         });    
      </script>
