@@ -121,7 +121,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #2010A0;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
