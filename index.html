@@ -303,13 +303,13 @@
                                 <a href="https://plus.google.com/+SashankModali" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="#" class="btn-social btn-outline" id="twitter"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="#" class="btn-social btn-outline" id="linkin"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="#" class="btn-social btn-outline" id="dribble"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -590,6 +590,9 @@
                  }, 500);
                   $(window).scrollTop(($('#profile').offset().top)-90);
              });
+            $('#twitter').click(function() {
+                window.alert("Sorry! twitter account doesn't exist yet!");
+            });
         });    
      </script>
 
