@@ -156,7 +156,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #2010A0;
-  color: white;
+  color: #2010A0;
   border-color: #2010A0;
 }
 @media (min-width: 768px) {
